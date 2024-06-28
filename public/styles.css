@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+
+form{
+    border: 2px solid rgb(164, 35, 224);
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    padding: 10px;
+}
+
+input{
+    text-align: center;
+    margin: 5px;
+    width: 60%;
+}
+
+button{
+    width: 30%;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+button:hover{
+    cursor: pointer;
+}
